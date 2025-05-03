@@ -21,7 +21,7 @@ print("--- Script Start ---")
 # --- Load Model ---
 try:
     print("Loading YOLO model...")
-    model = YOLO("yolov8n.pt")
+    model = YOLO("yolov8n")
     print("YOLO model loaded successfully.")
 except Exception as e:
     print(f"FATAL: Error loading YOLO model: {e}")
