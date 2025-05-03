@@ -35,7 +35,7 @@ ENV/
 *.log
 
 # Model files (Decide if you want to track these - yolov8n.pt might be okay, larger ones often excluded)
-# *.pt
+*.pt
 
 # OS generated files
 .DS_Store
