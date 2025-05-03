@@ -18,8 +18,8 @@ This project provides a collection of Python scripts designed for video analysis
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <repository-directory>
+    git clone https://github.com/AbhiramJayasankar/crowd-analysis
+    cd crowd-analysis
     ```
 2.  **Install dependencies:**
     It's recommended to use a virtual environment.
