@@ -15,7 +15,7 @@ OVERLAY_ALPHA = 0.4
 COUNT_FONT_SCALE = 0.6
 WINDOW_NAME = f"Persistent Heatmap ({DISPLAY_WIDTH}x{DISPLAY_HEIGHT}) (Press 'q' to quit)"
 
-def load_model(model_path="yolov8n"):
+def load_model(model_path="yolo11n"):
     """Loads the YOLO model."""
     try:
         model = YOLO(model_path)

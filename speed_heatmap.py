@@ -29,7 +29,7 @@ SORT_MAX_AGE = 20
 SORT_MIN_HITS = 3
 SORT_IOU_THRESH = 0.3
 
-def load_model(model_path="yolov8n"):
+def load_model(model_path="yolo11n"):
     """Loads the YOLO model."""
     try:
         model = YOLO(model_path)
